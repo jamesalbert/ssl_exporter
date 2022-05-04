@@ -13,7 +13,7 @@ import (
 	"github.com/go-kit/log"
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/ribbybibby/ssl_exporter/config"
+	"github.com/jamesalbert/ssl_exporter/config"
 )
 
 // ProbeTCP performs a tcp probe

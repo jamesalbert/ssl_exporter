@@ -79,12 +79,12 @@ func GenerateCertificateTemplate(expiry time.Time) *x509.Certificate {
 		KeyUsage:              x509.KeyUsageDigitalSignature | x509.KeyUsageCertSign,
 		IPAddresses:           []net.IP{net.ParseIP("127.0.0.1"), net.ParseIP("::1")},
 		Subject: pkix.Name{
-			CommonName:         "example.ribbybibby.me",
-			Organization:       []string{"ribbybibby"},
-			OrganizationalUnit: []string{"ribbybibbys org"},
+			CommonName:         "example.jamesalbert.me",
+			Organization:       []string{"jamesalbert"},
+			OrganizationalUnit: []string{"jamesalberts org"},
 		},
-		EmailAddresses: []string{"me@ribbybibby.me", "example@ribbybibby.me"},
-		DNSNames:       []string{"example.ribbybibby.me", "example-2.ribbybibby.me", "example-3.ribbybibby.me"},
+		EmailAddresses: []string{"me@jamesalbert.me", "example@jamesalbert.me"},
+		DNSNames:       []string{"example.jamesalbert.me", "example-2.jamesalbert.me", "example-3.jamesalbert.me"},
 	}
 }
 

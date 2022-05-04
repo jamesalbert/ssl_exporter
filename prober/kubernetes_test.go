@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/ribbybibby/ssl_exporter/config"
-	"github.com/ribbybibby/ssl_exporter/test"
+	"github.com/jamesalbert/ssl_exporter/config"
+	"github.com/jamesalbert/ssl_exporter/test"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/fake"

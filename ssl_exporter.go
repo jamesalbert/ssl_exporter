@@ -15,8 +15,8 @@ import (
 	"github.com/prometheus/common/promlog"
 	promlogflag "github.com/prometheus/common/promlog/flag"
 	"github.com/prometheus/common/version"
-	"github.com/ribbybibby/ssl_exporter/config"
-	"github.com/ribbybibby/ssl_exporter/prober"
+	"github.com/jamesalbert/ssl_exporter/config"
+	"github.com/jamesalbert/ssl_exporter/prober"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 

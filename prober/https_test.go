@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/ribbybibby/ssl_exporter/config"
-	"github.com/ribbybibby/ssl_exporter/test"
+	"github.com/jamesalbert/ssl_exporter/config"
+	"github.com/jamesalbert/ssl_exporter/test"
 	"golang.org/x/crypto/ocsp"
 )
 

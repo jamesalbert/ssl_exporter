@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ribbybibby/ssl_exporter/config"
-	"github.com/ribbybibby/ssl_exporter/test"
+	"github.com/jamesalbert/ssl_exporter/config"
+	"github.com/jamesalbert/ssl_exporter/test"
 
 	"github.com/prometheus/client_golang/prometheus"
 )
